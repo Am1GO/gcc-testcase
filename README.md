@@ -38,6 +38,16 @@ Thread model: posix
 gcc version 4.4.7 20120313 (Red Hat 4.4.7-11) (GCC)
 ```
 
+### Ubuntu 10.04.3 LTS x86_64 with gcc 4.4.3
+```
+# gcc -v
+Using built-in specs.
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.4.3-4ubuntu5' --with-bugurl=file:///usr/share/doc/gcc-4.4/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --enable-shared --enable-multiarch --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.4 --program-suffix=-4.4 --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-plugin --enable-objc-gc --disable-werror --with-arch-32=i486 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.4.3 (Ubuntu 4.4.3-4ubuntu5)
+```
+
 ### FreeBSD 10.1-RELEASE amd64 with clang 3.3
 ```
 # clang++33 -v
