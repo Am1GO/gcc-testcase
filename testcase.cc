@@ -1,24 +1,21 @@
-#include "testcase.hh"
+#include "testcase.pb.h"
+class Config
+{
+public:
+  Config()
+  {
+    ConfigInfo * storable = new ConfigInfo;
+    storable->bundle(); // segfault here
+  }
+};
+
 namespace ConfigHelper
 {
-  Config defaultConfig;
-}
-
-Config::~Config()
-{
-  // prevent memleak
-  if ( want_cleanup )
-    delete storable;
-}
-
-Config::Config():
-  want_cleanup( true )
-{
-  storable = new ConfigInfo;
-  storable->bundle(); // segfault here
+  Config defaultConfig; // causes segfault
 }
 
 int main( int argc, char *argv[] )
 {
+  Config config; // did not causes segfault
   return EXIT_SUCCESS;
 }
