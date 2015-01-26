@@ -1,0 +1,9 @@
+message BundleConfigInfo
+{
+  required uint32 max_payload_size = 2 [default = 0x200000];
+}
+
+message ConfigInfo
+{
+  required BundleConfigInfo bundle = 1;
+}
