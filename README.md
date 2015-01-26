@@ -40,7 +40,7 @@ gcc version 4.9.2 20141101 (Red Hat 4.9.2-1) (GCC)
 
 ## Works fine on
 
-## Fedora 13 x86_64 with gcc 4.4.5
+### Fedora 13 x86_64 with gcc 4.4.5
 ```
 # g++ -v
 Using built-in specs.
@@ -50,7 +50,7 @@ Thread model: posix
 gcc version 4.4.5 20101112 (Red Hat 4.4.5-2) (GCC)
 ```
 
-## Fedora 14 x86_64 with gcc 4.5.1
+### Fedora 14 x86_64 with gcc 4.5.1
 ```
 # g++ -v
 Using built-in specs.
