@@ -16,7 +16,7 @@ build
 ./testcase
 
 if [[ $? -ne 0 ]]; then
-	echo "# g++ -v"
+	echo "# $CXX -v"
 	$CXX -v
 else
 	echo "All is fine!"
