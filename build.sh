@@ -2,4 +2,4 @@
 rm -f testcase.pb* testcase
 protoc testcase.proto --cpp_out=./
 [[ -z $CXX ]] && CXX=g++
-$CXX -g -lprotobuf -lpthread -o testcase *cc
+$CXX -g -lprotobuf -lpthread -lstdc++ -o testcase *cc
