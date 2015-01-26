@@ -14,14 +14,8 @@ Config::~Config()
 Config::Config():
   want_cleanup( true )
 {
-  ConfigInfo * configInfo = new ConfigInfo;
-  storable = configInfo;
-  reset_storable();
-}
-
-void Config::reset_storable()
-{
-  storable->bundle();
+  storable = new ConfigInfo;
+  storable->bundle(); // segfault here
 }
 
 int main( int argc, char *argv[] )
