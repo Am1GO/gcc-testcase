@@ -1,8 +1,8 @@
 # gcc-testcase for https://github.com/zbackup/zbackup/issues/48
 
-## Failed on ##
+## Failed on
 
-### Fedora 20 x86_64 with gcc 4.8.3 ###
+### Fedora 20 x86_64 with gcc 4.8.3
 ```
 # g++ -v
 Using built-in specs.
@@ -14,7 +14,7 @@ Thread model: posix
 gcc version 4.8.3 20140911 (Red Hat 4.8.3-7) (GCC) 
 ```
 
-### Fedora 21 x86_64 with gcc 4.9.2 ###
+### Fedora 21 x86_64 with gcc 4.9.2
 ```
 # g++ -v
 Using built-in specs.
@@ -26,9 +26,9 @@ Thread model: posix
 gcc version 4.9.2 20141101 (Red Hat 4.9.2-1) (GCC)
 ```
 
-## Works fine on ##
+## Works fine on
 
-### Scientific Linux 6.6 i686 with gcc 4.4.7 ###
+### Scientific Linux 6.6 i686 with gcc 4.4.7
 ```
 # g++ -v
 Using built-in specs.
@@ -36,4 +36,29 @@ Target: i686-redhat-linux
 Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch=i686 --build=i686-redhat-linux
 Thread model: posix
 gcc version 4.4.7 20120313 (Red Hat 4.4.7-11) (GCC)
+```
+
+### FreeBSD 10.1-RELEASE amd64 with clang 3.3
+```
+# clang++33 -v
+clang version 3.3 (tags/RELEASE_33/final)
+Target: x86_64-portbld-freebsd10.0
+Thread model: posix
+```
+
+### FreeBSD 10.1-RELEASE amd64 with clang 3.4
+```
+# clang++34 -v
+clang version 3.4.2 (tags/RELEASE_34/dot2-final)
+Target: x86_64-portbld-freebsd10.0
+Thread model: posix
+Selected GCC installation:
+```
+
+### FreeBSD 10.1-RELEASE amd64 with clang 3.5
+```
+# clang++35 -v
+clang version 3.5.0 (tags/RELEASE_350/final)
+Target: x86_64-portbld-freebsd10.0
+Thread model: posix
 ```
