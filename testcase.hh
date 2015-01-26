@@ -1,6 +1,3 @@
-#ifndef CONFIG_HH_INCLUDED
-#define CONFIG_HH_INCLUDED
-
 #include "testcase.pb.h"
 
 class Config
@@ -16,4 +13,3 @@ private:
   bool want_cleanup;
 };
 
-#endif
