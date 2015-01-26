@@ -4,6 +4,7 @@
 
 ### Fedora 20 x86_64 with gcc 4.8.3 ###
 ```
+# g++ -v
 Using built-in specs.
 COLLECT_GCC=/usr/bin/g++
 COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.3/lto-wrapper
@@ -15,6 +16,7 @@ gcc version 4.8.3 20140911 (Red Hat 4.8.3-7) (GCC)
 
 ### Fedora 21 x86_64 with gcc 4.9.2 ###
 ```
+# g++ -v
 Using built-in specs.
 COLLECT_GCC=g++
 COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.9.2/lto-wrapper
@@ -28,6 +30,7 @@ gcc version 4.9.2 20141101 (Red Hat 4.9.2-1) (GCC)
 
 ### Scientific Linux 6.6 i686 with gcc 4.4.7 ###
 ```
+# g++ -v
 Using built-in specs.
 Target: i686-redhat-linux
 Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch=i686 --build=i686-redhat-linux
