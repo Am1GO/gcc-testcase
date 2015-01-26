@@ -26,7 +26,7 @@ gcc version 4.9.2 20141101 (Red Hat 4.9.2-1) (GCC)
 
 ## Works fine on ##
 
-### Scientific Linux 6.5 with gcc 4.4.7 ###
+### Scientific Linux 6.6 i686 with gcc 4.4.7 ###
 ```
 Using built-in specs.
 Target: i686-redhat-linux
