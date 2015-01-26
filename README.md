@@ -2,7 +2,7 @@
 
 ## Failed on
 
-### Fedora 15 x86_64 with gcc 4.6.3
+### Fedora 15 x86_64 (gcc 4.6.3)
 ```
 # g++ -v
 Using built-in specs.
@@ -14,7 +14,7 @@ Thread model: posix
 gcc version 4.6.3 20120306 (Red Hat 4.6.3-2) (GCC)
 ```
 
-### Fedora 20 x86_64 with gcc 4.8.3
+### Fedora 20 x86_64 (gcc 4.8.3)
 ```
 # g++ -v
 Using built-in specs.
@@ -26,7 +26,7 @@ Thread model: posix
 gcc version 4.8.3 20140911 (Red Hat 4.8.3-7) (GCC) 
 ```
 
-### Fedora 21 x86_64 with gcc 4.9.2
+### Fedora 21 x86_64 (gcc 4.9.2)
 ```
 # g++ -v
 Using built-in specs.
@@ -40,7 +40,7 @@ gcc version 4.9.2 20141101 (Red Hat 4.9.2-1) (GCC)
 
 ## Works fine on
 
-### Fedora 13 x86_64 with gcc 4.4.5
+### Fedora 13 x86_64 (gcc 4.4.5)
 ```
 # g++ -v
 Using built-in specs.
@@ -50,7 +50,7 @@ Thread model: posix
 gcc version 4.4.5 20101112 (Red Hat 4.4.5-2) (GCC)
 ```
 
-### Fedora 14 x86_64 with gcc 4.5.1
+### Fedora 14 x86_64 (gcc 4.5.1)
 ```
 # g++ -v
 Using built-in specs.
@@ -62,7 +62,7 @@ Thread model: posix
 gcc version 4.5.1 20100924 (Red Hat 4.5.1-4) (GCC)
 ```
 
-### Scientific Linux 6.6 i686 with gcc 4.4.7
+### Scientific Linux 6.6 i686 (gcc 4.4.7)
 ```
 # g++ -v
 Using built-in specs.
@@ -72,7 +72,7 @@ Thread model: posix
 gcc version 4.4.7 20120313 (Red Hat 4.4.7-11) (GCC)
 ```
 
-### Ubuntu 10.04.3 LTS x86_64 with gcc 4.4.3
+### Ubuntu 10.04.3 LTS x86_64 (gcc 4.4.3)
 ```
 # gcc -v
 Using built-in specs.
@@ -82,7 +82,7 @@ Thread model: posix
 gcc version 4.4.3 (Ubuntu 4.4.3-4ubuntu5)
 ```
 
-### FreeBSD 10.1-RELEASE amd64 with clang 3.3
+### FreeBSD 10.1-RELEASE amd64 (clang 3.3)
 ```
 # clang++33 -v
 clang version 3.3 (tags/RELEASE_33/final)
@@ -90,7 +90,7 @@ Target: x86_64-portbld-freebsd10.0
 Thread model: posix
 ```
 
-### FreeBSD 10.1-RELEASE amd64 with clang 3.4
+### FreeBSD 10.1-RELEASE amd64 (clang 3.4.2)
 ```
 # clang++34 -v
 clang version 3.4.2 (tags/RELEASE_34/dot2-final)
@@ -99,7 +99,7 @@ Thread model: posix
 Selected GCC installation:
 ```
 
-### FreeBSD 10.1-RELEASE amd64 with clang 3.5
+### FreeBSD 10.1-RELEASE amd64 (clang 3.5.0)
 ```
 # clang++35 -v
 clang version 3.5.0 (tags/RELEASE_350/final)
