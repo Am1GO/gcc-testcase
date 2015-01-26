@@ -17,7 +17,7 @@ build
 
 if [[ $? -ne 0 ]]; then
 	echo "# g++ -v"
-	g++ -v
+	$CXX -v
 else
 	echo "All is fine!"
 fi
